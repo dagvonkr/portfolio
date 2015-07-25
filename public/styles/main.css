@@ -10,6 +10,10 @@ html, body {
 	font-family: 'MavenPro-Regular';
 }
 
+div.scroll-watch-in-view {
+    opacity: 1;
+}
+
 
 .top-text{
 	color: #3bd9c1;
