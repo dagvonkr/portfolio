@@ -23,7 +23,26 @@ div.scroll-watch-in-view {
 
 }
 
+a:link{
+	color: #666665;
+}
+
+a:visited {
+	color: #666665;	
+}
+
+a:hover{
+	color: #848583;
+	text-decoration: none;
+}
+
+a:active {
+	color: #848583;
+	text-decoration: none;
+}
+
 .top-text{
+	width: 70%;
 	color: #3bd9c1;
 	background: #f5f6f3;
 	font-family: 'LeagueSpartan-Bold';
@@ -82,3 +101,68 @@ div.scroll-watch-in-view {
 	background: #f5f6f3;
 }
 
+ /*iPads (portrait and landscape) ----------- */
+@media screen and (min-width : 768px) and (max-width : 1199px) {
+	
+.project-title{
+	font-size: 20px;
+	margin-top: 50px;
+	margin-left: 120px;
+	}
+
+.projectimg1{
+	margin-top: 50px;
+	width: 100%;
+	}
+
+
+}
+
+@media screen and (min-width : 480px) and (max-width : 768px) {
+	
+
+
+.project-title{
+	margin-top: 50px;
+	
+}
+
+.projectimg1{
+	width: 100%;
+	margin-top: 50px;
+
+	}
+
+
+}
+
+
+@media screen and (max-width : 480px) {
+
+.top-text {
+	font-size: 50px;
+}
+
+.project-title{
+	margin-top: 50px;
+	margin-left: 60px;
+	
+}
+
+.projectimg1{
+	width: 100%;
+	margin-top: 50px;
+
+}
+
+.section1 {
+	height: 650px;
+}
+
+.section2 {
+	height: 650px;
+}
+
+
+
+}
