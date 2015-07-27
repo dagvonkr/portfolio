@@ -3,10 +3,11 @@
 @font-face { font-family: MavenPro-Bold; src: url('../fonts/MavenPro-Bold.ttf'); }
 @font-face { font-family: MavenPro-Medium; src: url('../fonts/MavenPro-Medium.ttf'); }
 @font-face { font-family: MavenPro-Regular; src: url('../fonts/MavenPro-Regular.ttf'); }
+@font-face { font-family: GTWalsheim-Oblique; src: url('../fonts/GTWalsheim-RegularOblique.otf'); }
 
 html, body {
 	width: 100%;
-	background: #f5f6f3;
+	background: #fbfcf9;
 	font-family: 'MavenPro-Regular';
 }
 
@@ -14,6 +15,13 @@ div.scroll-watch-in-view {
     opacity: 1;
 }
 
+.top-menu{
+	font-family: 'GTWalsheim-Oblique';
+	color: #666665;
+	font-size: 16px;
+	margin-top: 75px;
+
+}
 
 .top-text{
 	color: #3bd9c1;
@@ -21,7 +29,7 @@ div.scroll-watch-in-view {
 	font-family: 'LeagueSpartan-Bold';
 	font-size: 70px;
 	letter-spacing: 4px;
-	margin-top: 200px;
+	margin-top: 150px;
 }
 
 .top-text-sub{
@@ -33,13 +41,44 @@ div.scroll-watch-in-view {
 }
 
 .section1 {
-	margin-top: 250px;
-	background-color: #fbfcf9;
+	margin-top: 200px;
+/*	background-color: #fbfcf9;*/
 	height: 750px;
 }
 
-.hirebooimg{
-	margin-top: 200px;
-	width: 75%;
+.section2 {
+	margin-top: 0px;
+/*	background-color: #fbfcf9;*/
+	height: 750px;
+}
+
+.project-title{
+	font-family: 'MavenPro-Bold';
+	font-size: 20px;
+	margin-top: 310px;
+	margin-left: 70px;
+}
+
+.project-text{
+	font-family: 'MavenPro-Regular';
+	font-size: 20px;
+	word-spacing: 3px;
+	color: #3a3a39;
+
+}
+
+.skills-text {
+	font-family: 'GTWalsheim-Oblique';
+	font-size: 14px;
+	color: #555554;
+	margin-left: 20px;
+	letter-spacing: 0.5px;
+
+}
+
+.projectimg1{
+	margin-top: 160px;
+	width: 90%;
 	background: #f5f6f3;
 }
+

@@ -1,5 +1,5 @@
-var sw = new ScrollWatch({
-	onElementInView: function(data) {
-		console.log(data.el, '...is now in view');
-	}
-});
+(function() {
+	
+	var swInstance = new ScrollWatch({});
+	
+})();

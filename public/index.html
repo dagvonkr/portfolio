@@ -9,6 +9,24 @@
 	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
 </head>
 <body ng-app="portfolio">
+
+	<div class="row">
+		<div class="col-lg-1 col-lg-offset-7 col-md-1 col-md-offset-7 col-sm-4 col-xs-4">
+			<div class="top-menu">
+				GITHUB
+			</div>
+		</div>
+		<div class="col-lg-1 col-md-7 col-sm-4 col-xs-4">
+			<div class="top-menu">
+				LINKEDIN
+			</div>
+		</div>
+		<div class="col-lg-1 col-md-7 col-sm-4 col-xs-4">
+			<div class="top-menu">
+			 EMAIL
+			</div>
+		</div>
+	</div>
 	
 	<div class="row">
 		<div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-2 col-lg-10 col-lg-offset-3">
@@ -30,13 +48,121 @@
 
 	<div class="section1">
 		<div class="row">
-			<div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-6 col-lg-offset-1">
-				<div data-scroll-watch>
-					<img class="hirebooimg" src="img/hireboo.jpg" alt="image is missing">
+			<div data-scroll-watch>
+				<div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-6 col-lg-offset-1">
+				<img class="projectimg1" src="img/hireboo.jpg" alt="image is missing">
+				</div>
+				<div class="col-sm-10 col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1">	
+					<div class="project-title">
+						Hire Boo
+					</div>
+					<br>
+					<div class="project-text">
+						A website connecting web developer students with paid projects.
+					</div>
+					<br>
+					<div class="skills-text">
+						DESIGN / FRONT-END / BACK-END
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+
+	<div class="section2">
+		<div class="row">
+			<div data-scroll-watch>
+				<div class="col-sm-10 col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1">	
+				<div class="project-title">
+					Ethico
+				</div>
+				<br>
+				<div class="project-text">
+					A shopping mall curated for ethical made products.
+					The project is still in developing.
+				</div>
+				<br>
+				<div class="skills-text">
+					DESIGN / FRONT-END / BACK-END
+				</div>
+				</div>
+				<div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-6 col-lg-offset-1">
+				<img class="projectimg1" src="img/ethico.jpg" alt="image is missing">
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="section2">
+		<div class="row">
+			<div data-scroll-watch>
+				<div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-6 col-lg-offset-1">
+				<img class="projectimg1" src="img/discofingers.png" alt="image is missing">
+				</div>
+				<div class="col-sm-10 col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1">	
+					<div class="project-title">
+						Disco Fingers
+					</div>
+					<br>
+					<div class="project-text">
+						Co-founded an iPad app for children for easily making music in a very fun way.
+					</div>
+					<br>
+					<div class="skills-text">
+						DESIGN / CONCEPT / SOUND-DESIGN
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="section2">
+		<div class="row">
+			<div data-scroll-watch>
+				<div class="col-sm-10 col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1">	
+				<div class="project-title">
+					Propell
+				</div>
+				<br>
+				<div class="project-text">
+					Co-founded Propell - interactive childrens stories on iPad. 
+				</div>
+				<br>
+				<div class="skills-text">
+					DESIGN / PRODUCER / FRONT-END
+				</div>
+				</div>
+				<div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-6 col-lg-offset-1">
+				<img class="projectimg1" src="img/propell.png" alt="image is missing">
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="section2">
+		<div class="row">
+			<div data-scroll-watch>
+				<div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-6 col-lg-offset-1">
+				<img class="projectimg1" src="img/hof.jpg" alt="image is missing">
+				</div>
+				<div class="col-sm-10 col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1">	
+					<div class="project-title">
+						House of Fam
+					</div>
+					<br>
+					<div class="project-text">
+						House of Fam was made for designer Fam Irvoll.
+					</div>
+					<br>
+					<div class="skills-text">
+						DESIGN / FRONT-END / BACK-END
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
 
 
 <div ui-view></div>
@@ -48,7 +174,7 @@
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script> -->
 <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
 <script src="Gruntfile.js"></script>
-<script src="bower_components/scrollwatch/src/ScrollWatch.js"></script>
+<script src="bower_components/scrollwatch/dist/ScrollWatch-1.1.0.min.js"></script>
 <script src="ScrollWatch.js"></script>
 </body>
 </html>
